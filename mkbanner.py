@@ -115,7 +115,7 @@ def design_a():
     <div class="a-eyebrow">Labor&nbsp;Day Sale</div>
     <div class="a-rule"></div>
     <div class="a-off">{{OFFER}} <em>OFF</em></div>
-    <div class="a-sub">All Custom Blinds &amp; Shades</div>
+    <div class="a-sub">Sitewide &nbsp;&middot;&nbsp; On All Products</div>
     <div class="a-note">Free shipping right to your door &nbsp;&middot;&nbsp; Free in-home consultation</div>
     <div class="a-cta">Shop the Sale</div>
   </div>
@@ -175,7 +175,7 @@ def design_b():
   <div class="b-txt">
     <div class="b-eyebrow">Labor&nbsp;Day Sale</div>
     <div class="b-off">{{OFFER}} OFF</div>
-    <div class="b-sub">All Custom Blinds &amp; Shades</div>
+    <div class="b-sub">Sitewide &nbsp;&middot;&nbsp; On All Products</div>
     <div class="b-note">Measured, made and shipped to your door</div>
     <div class="b-row">
       <div class="b-ends">{{ENDS}}</div>
@@ -228,7 +228,7 @@ def design_c():
     <div class="c-flag"><i style="background:#b22234"></i><i style="background:#fff"></i><i style="background:#3c3b6e"></i></div>
     <div class="c-eyebrow">Labor Day Sale</div>
     <div class="c-off">{{OFFER}} Off</div>
-    <div class="c-sub">All Custom Blinds, Shades &amp; Shutters</div>
+    <div class="c-sub">Sitewide &nbsp;&middot;&nbsp; On All Products</div>
     <div class="c-note">Free shipping &nbsp;&middot;&nbsp; Free samples &nbsp;&middot;&nbsp; Free in-home consultation</div>
     <div class="c-row">
       <div class="c-cta">Shop the Sale</div>
