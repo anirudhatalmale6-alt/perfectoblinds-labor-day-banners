@@ -2,15 +2,18 @@
 
 Slider artwork for perfectoblinds.com, Labor Day 2026 (Monday 7 September).
 
-Discount confirmed by the client: **20% off, sitewide, on all products.**
+Confirmed by the client: **20% off, sitewide, on all products**, ending
+**Monday 14 September**.
 
 ## Files
 
 | File | Size | Notes |
 |---|---|---|
-| `laborday_a.jpg` | 1900x634 | **Option A - upload this one.** 147 KB |
-| `laborday_a.png` | 1900x634 | Same artwork, lossless, 1014 KB |
-| `laborday_a_sept10.jpg` | 1900x634 | Option A with "Ends Thursday, Sept 10" instead of Sept 7 |
+| `laborday_a_sept14.jpg` | 1900x634 | **This is the live one.** 147 KB |
+| `laborday_a_sept14.png` | 1900x634 | Same artwork, lossless, 1014 KB |
+| `laborday_a.jpg` | 1900x634 | Earlier draft, "Ends Monday, Sept 7" |
+| `laborday_a.png` | 1900x634 | as above, PNG |
+| `laborday_a_sept10.jpg` | 1900x634 | Earlier draft, "Ends Thursday, Sept 10" |
 | `laborday_a_sept10.png` | 1900x634 | as above, PNG |
 | `laborday_b.png` / `.jpg` | 1900x634 | Option B - navy sweep, gold, trust strip |
 | `laborday_c.png` / `.jpg` | 1900x634 | Option C - full-bleed room shot |
@@ -58,4 +61,7 @@ goes up, these will contradict it:
 
 The offer and the end date are parameters, not baked in:
 
-    OFFER="20%" ENDS="ENDS MONDAY, SEPT 7" python3 mkbanner.py a b c
+    OFFER="20%" ENDS="ENDS MONDAY, SEPT 14" SUFFIX="_sept14" python3 mkbanner.py a
+
+JPEGs are written at quality 86, progressive, optimized - that is the setting
+that gives 147 KB at a measured mean difference of 1.63/255 from the PNG.
